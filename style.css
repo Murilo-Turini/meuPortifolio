@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #6b83a3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  color: #333;
+  box-sizing: 20px;
+  display: block;
+  border-radius: 90px, auto;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  text-overflow: clip;
+  font-weight: bold;
+}
+
+#border {
+  max-width: 400px;
+  margin: 90px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fotoMinha {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.linkedin {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #8b9af0;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.imagemlinkedin {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.github {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #8b9af0;
+  text-decoration: none;
+  border-radius: 50px;
+  max-width: auto center;
+}
+
+.imagemgithub {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
